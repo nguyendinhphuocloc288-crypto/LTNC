@@ -1,7 +1,7 @@
 public class Solution15 {
     public int gcd(int a, int b){
-        if (a%b == 0) return b;
-        if (b%a == 0) return a;
+        if (a == 0) return b;
+        if (b == 0) return a;
         while (a != b){
             if (a < b){
                 b = b - a;
